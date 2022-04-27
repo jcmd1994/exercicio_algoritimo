@@ -1,0 +1,21 @@
+const exercicioA= 4 + 6 * 2;
+const exercicioB= 10 / 5 + 8;
+const exercicioC= 12 / 4 + 16 / 2;
+const exercicioD= 17 + 20/ 5;
+const exercicioE= 22 / 5 + 7;
+const exercicioF= 39 / 10 ;
+const exercicioG= 19 % (2 + 3);
+const exercicioH= 3 + 4 * 20 / 3;
+const exercicioI= 36 % (6 + 2);
+const exercicioJ= 8 % 2 * 0;
+
+console.log("Qual o valor da questão A :",exercicioA,);
+console.log("Qual o valor da questão B :",exercicioB,);
+console.log("Qual o valor da questão C :",exercicioC,);
+console.log("Qual o valor da questão D :",exercicioD,);
+console.log("Qual o valor da questão E:",exercicioE,);
+console.log("Qual o valor da questão F:",exercicioF,);
+console.log("Qual o valor da questão G :",exercicioG,);
+console.log("Qual o valor da questão H:",exercicioH,);
+console.log("Qual o valor da questão I :",exercicioI,);
+console.log("Qual o valor da questão J:",exercicioJ,);
