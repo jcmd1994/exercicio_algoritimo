@@ -1,10 +1,10 @@
 var  readlineSync =require('readline-sync'); 
 
-let somaDeNumeros1= Number (readlineSync.question( 'Qual o valor primeiro numero? : ' ));
+let somaDeNumeros1= Number (readlineSync.question("Qual o valor primeiro número?"));
 
-let somaDeNumeros2= Number (readlineSync.question( 'Qual o valor segundo numero? : ' ));
+let somaDeNumeros2= Number (readlineSync.question("Qual o valor segundo número? "));
 
-let somaDeNumeros3= Number (readlineSync.question( 'Qual o valor terceiro numero? : ' ));
+let somaDeNumeros3= Number (readlineSync.question("Qual o valor terceiro número?"));
 
 if (somaDeNumeros1 + somaDeNumeros2 == somaDeNumeros3){
    console.log("Soma dos 3 números são iguais a :",somaDeNumeros1+somaDeNumeros2+somaDeNumeros3,);
@@ -14,18 +14,6 @@ else if( somaDeNumeros1 == somaDeNumeros2){
 }
  
    
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*Escreva um algoritmo que leia três números fornecidos pelo usuário e mostre se
 a soma de dois deles resulta no terceiro.*/

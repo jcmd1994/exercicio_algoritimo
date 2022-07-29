@@ -9,38 +9,16 @@ const calculoSms3 = sms*0.10;
 const calculoImpostoSms=100/12;
 
 
-if(sms == 5.00){
+if(sms == 5.00){// valor cobrado 5,00
     console.log("O valor do sms é :",calculoSms1);
 }
-else if (sms => 0.05){
+else if (sms => 0.05){// mais de 60 sms = 0,05
     console.log("Plano básico é:",calculoSms2);
 }
-else if ( sms > 0.10){
+else if ( sms > 0.10){// mais do que 180 sms =0.10
     console.log("O valor de  mais de 180 mensagens é:",calculoSms3);
 }
-console.log("O de impostos federais e estuais",calculoImpostoSms);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log("Valor de impostos federais e estaduais",calculoImpostoSms); //12% é igual a 12/100
 
 
 

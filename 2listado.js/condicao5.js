@@ -1,6 +1,6 @@
 var  readlineSync =require('readline-sync'); 
 
- let livros=Number(readlineSync.question('Quantos livros o Jorge comprou?'));
+ let livros=Number(readlineSync.question("Quantos livros o Jorge comprou 0,2,3 ,4 ou 5...?"));
 
     if(livros == 0){
     console.log("Se Jorge comprar 0 livros, ele ganhará 0 pontos.",livros);
@@ -14,7 +14,7 @@ var  readlineSync =require('readline-sync');
     else if(livros == 3){
         console.log("Se Jorge comprar 3 livros, ele ganhará 30 pontos",livros);
     }
-    else if(livros == 4){
+    else if(livros <= 4){
         console.log("Se Jorge comprar 4 livros ou mais , ele ganhará 60 pontos",livros);
     }
     

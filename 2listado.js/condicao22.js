@@ -1,6 +1,49 @@
 var   readlineSync  =  require  ( 'readline-sync'  ); 
+const totalDeAulasAssistidas=Number ( readlineSync . question ("Quantas aulas assistidas?"));
+const totalDeNotasSemestrais=Number ( readlineSync . question ("notas Bimestrais ?"));
+const totalDeFaltas=Number (readlineSync .question ("Total de Faltas ?"));
 
 
+
+let  porcentagens =totalDeAulasAssistidas*25/100;
+let calculoAulas1 =totalDeAulasAssistidas-porcentagens1;
+
+if(totalDeAulasAssistidas >= calculoAulas1){
+    console.log("APROVADO!");
+    console.log("Total de aulas assistidas:",totalDeAulasAssistidas);
+    console.log("Total de FALTAS :",totalDeFaltas);
+    
+}
+if(notaSemestrais >= 28){
+    console.log('AProvado');
+    console.log('Nota Total :',notaSemestrais);
+}else {
+    console.log('Reprovado');
+    console.log('Media Total não alcançada de 28');
+}
+
+console.log('Reprovado1');
+console.log('total de faltas permitidas :',porcentagens);
+console.log(calculoAulas1);
+
+
+
+
+
+
+
+
+
+
+
+
+// 25% de falta 
+//nota final deve ser 7.00 ou maior
+//notas bimestrais
+// total de aulas assistidas
+// total de faltas
+// Aluno reprovado!
+// Aluno aprovado!
 
 
 

@@ -18,31 +18,6 @@ else if(newtos < 1000){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Os cientistas medem a massa de um objeto em quilogramas e seu peso em
 newtons. O peso em Newtons de um objeto pode ser calculado a partir de sua
 massa por meio da seguinte fórmula:

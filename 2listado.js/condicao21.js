@@ -1,5 +1,6 @@
 var   readlineSync  =  require  ( 'readline-sync'  ); 
-
+console.log("Para resultados de cores primarias misturadas escolha...");
+console.log("Escolha  uma cor primaria que são : vermelho ,azul ou amarelo?");
 const cor1 =readlineSync.question( "Qual a primeira cor?") ;
 const cor2= readlineSync.question ( "Qual a segunda cor ?") ;
 
@@ -17,9 +18,12 @@ else if(cor1 == "azul" && cor2 == "amarelo"){
 }
 else if(cor1 == "amarelo" && cor2 == "azul"){
     console.log("Resultado obtido verde!")
+
+}else{
+ console.log("erro")
 }
 
-  
+
 
 
 /*21. Construa um algoritmo que, a partir de duas cores primárias fornecidas pelo

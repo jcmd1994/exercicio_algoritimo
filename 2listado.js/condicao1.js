@@ -1,5 +1,6 @@
-var   readlineSync  =  require  ( 'readline-sync'  ); 
-console.log ("identifique o número 1?");
+var readlineSync  =  require  ('readline-sync'); 
+
+console.log("identifique o número 1?");
 console.log("identifique o número 2?");
 console.log("identifique o número 3?");
 console.log("identifique o string1?");
@@ -22,7 +23,7 @@ else if(numero2 < numero3){
     console.log("falso",numero2);
 }
 else if(numero1 == string1){
-    console.log("falso",numero1);
+    console.log("ilegal",numero1);
 }
 else if(numero1 == "Um"){
     console.log("falso",numero1);
@@ -73,3 +74,10 @@ else if (numero1 = 30 && numero2 == 100 || numero3 ==100){
     console.log("verdadeiro pois",numero2,"é igual a 100");
     console.log("falso porque o",numero3,"não 100")
 }
+
+
+/*1. Considere as variáveis abaixo, inicializadas como segue:
+numero1 = 300 numero2 = 100 numero3 = 5
+string1 = "Rinoceronte" string2 = "Zebra" string3 = "bug”
+Para cada uma das seguintes expressões booleanas, classifique-a como
+Verdadeira, Falsa ou Ilegal.*/

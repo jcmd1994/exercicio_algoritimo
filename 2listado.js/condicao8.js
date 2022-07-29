@@ -1,17 +1,17 @@
 var  readlineSync  = require ( 'readline-sync' ) ; 
 
 const  dolar= Number(readlineSync.question( " o valor do dolar?" ));
-const  centavo01= Number(readlineSync.question( " Quantas moedas de 1 centavo?" ));
-const  centavo05= Number(readlineSync.question( " Quantas moedas de 5 centavos?" ));
-const  centavo10= Number(readlineSync.question( " Quantas moedas de 10 centavos?" ));
-const  centavo25= Number(readlineSync.question( " Quantas moedas de 25 centavos?" ));
-const  centavo50= Number(readlineSync.question( " Quantas moedas de 50 centavos?" ));
+const  centavo01= Number(readlineSync.question("Quantas moedas de 1 centavo?"));
+const  centavo05= Number(readlineSync.question("Quantas moedas de 5 centavos?"));
+const  centavo10= Number(readlineSync.question("Quantas moedas de 10 centavos?"));
+const  centavo25= Number(readlineSync.question("Quantas moedas de 25 centavos?"));
+const  centavo50= Number(readlineSync.question("Quantas moedas de 50 centavos?"));
 
- const centavo001=centavo01*0.01;
- const centavoo005=centavo05*0.05;
- const centavo0010=centavo10*0.10;
- const centavo0025=centavo25*0.25;
- const centavo0050=centavo50*0.50;
+ const centavo001=centavo01*0.01;//valor de 1 centavo.
+ const centavoo005=centavo05*0.05;//valor de 5 centavos
+ const centavo0010=centavo10*0.10;//valor de 10 centavos
+ const centavo0025=centavo25*0.25;//valor de 25 centavos
+ const centavo0050=centavo50*0.50;//valor de 50 centavos
 
  let calculoDoJogo=centavo001+centavoo005+centavo0010+centavo0025+centavo0050;
 
@@ -25,34 +25,6 @@ const  centavo50= Number(readlineSync.question( " Quantas moedas de 50 centavos?
      console.log("Gamer over!");
      console.log(dolar,"de",calculoDoJogo);
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* 

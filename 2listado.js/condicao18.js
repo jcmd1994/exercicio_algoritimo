@@ -17,28 +17,6 @@ else if(calculoDeBase01 == calculoDeBase02){
     console.log("A bAse um e dois são iguais:")
 }
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*18. Sabendo que a área de um retângulo é o comprimento de sua base multiplicada
+ /*18. Sabendo que a área de um retângulo é o comprimento de sua base multiplicada
 pela sua altura, construa um algoritmo que leia a base e a altura de dois retângulos
 e informe ao usuário qual deles tem a área maior ou se ambas as áreas são iguais*/

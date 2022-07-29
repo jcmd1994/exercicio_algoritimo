@@ -5,7 +5,7 @@ const petshoop = Number(readlineSync.question( "Qual é o peso do seu cão?" ));
 const calculoPesodoCao8kg= 50;
 const calculoPesodoCao14kg= 70;
 const calculoPesodoCao40kg= 100;
-const calculoPesodoCao50 = 125;
+const calculoPesodoCao50kg = 125;
 
 if( petshoop <= 50 ){
     console.log("O valor da hospedagem  cães com menos de 8kg é:",calculoPesodoCao8kg);;
